@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiki</title>
+    <link rel="icon" href="https://salt.tikicdn.com/media/upload/2018/12/03/0054c1410e38f1b9f3609c244974dd9c.png" type="" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+
+<div id="app">
+    <!-- HEADER -->
+    <header id="header">
+        <div class="up-header_nav wide grid">
+            
+            <div class="logo-style">
+                <a href="#">
+                    <img src="./assets/img/tiki-logo.png" alt="Tiki logo" class="logo-tiki">
+                </a>
+            </div>
+
+            <div class="list-item">
+                <a class="align-icon">
+                    <i class="fas fa-align-justify"></i>
+                </a>
+    
+                <div class="list-text">
+                    <span class="list-text__style1">Danh Mục</span>
+                    <span class="list-text__style2"><b>Sản phẩm</b><i class="fas fa-sort-down"></i></span>
+                </div>
+            </div>
+           
+            <div class="Search">
+                <input type="text" class="form-search" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                <button class="btn-search">
+                    <i class="fas fa-search-dollar"></i>
+                    Tìm kiếm
+                </button>
+            </div>
+
+            <div class="User">
+                <div class="account-user">
+                    <a class="icon-user">
+                        <i class="far fa-user"></i>
+                    </a>
+
+                    <div class="account-text">
+                        <span class="account-text__style1">Đăng ký/Đăng nhập</span>
+                        <span class="account-text__style2">Tài khoản<i class="fas fa-sort-down"></i></span>
+                    </div>
+                </div>
+
+                <div class="shopping-user">
+                    <a class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                   <span class="shopping-text">Giỏ hàng</span>
+                </div>
+            </div>
+           
+            
+        </div>
+
+        <div class="down-header">
+            <div class="suggestion-item">
+                <a href="" class="text-suggestion">bình giữ nhiệt</a>
+                <a href="" class="text-suggestion">đầm dự tiệc</a>
+                <a href="" class="text-suggestion">đồng hồ thông minh</a>
+                <a href="" class="text-suggestion">tai nghe bluetooth</a>
+                <a href="" class="text-suggestion">máy lạnh</a>
+                <a href="" class="text-suggestion">mũ bảo hiểm</a>
+            </div>
+
+            <a href="#" class="contact-work">💰Bán hàng cùng Tiki</a>
+           
+        </div>
+
+
+
+    </header>
+
+
+    <header id="header-mobile">
+        <div class="upheader-mobile">
+            <div class="logo-style">
+                <a href="#">
+                    <img src="./assets/img/tiki-logo.png" alt="Tiki logo" class="logo-tiki">
+                </a>
+            </div>
+
+            <a class="cart-icon" href="#">
+                <img src="./assets/img/shopping-cart.png" alt="">
+                <span class="count">0</span>  
+            </a>
+        </div>
+
+        <div class="search-header-mobile"> 
+            <i class="fas fa-search-dollar"></i>
+            <input type="text" class="form-search" placeholder="Bạn tìm gì hôm nay?">
+        </div>
+       
+    </header>
+
+    <!-- CONTAINER -->
+    <main id="container">
+        <!-- //////////////////////// -->
+        <div class="Slider grid wide">
+            <div class="row">
+                <div class="first-slider col l-8 m-12 c-12">
+                    <a href=""><img src="./assets/img/Slider/first-slider.png" alt=""></a>
+                    <a class="previous-btn"><i class="fas fa-chevron-left"></i></a>
+                    <a class="next-btn"><i class="fas fa-chevron-right"></i></a>
+
+                </div>
+
+                <a class="second-slider col l-4 m-0 c-0">
+                    <img src="./assets/img/Slider/Second-slider.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- //////////////////////// -->
+        <div class="deal_shock grid wide">
+            <div class="header-deal">
+                <div class="header-deal-text">
+                    <img src="./assets/img/Deal Shock/Deal1.png" alt="">
+                    <img src="./assets/img/Deal Shock/flash.gif" alt="">
+                    <img src="./assets/img/Deal Shock/Deal2.png" alt="">
+                </div>
+
+                <div class="count-clock">
+                    <span>08</span>
+                    :
+                    <span>08</span>
+                    :
+                    <span>08</span>
+                    <a href="" class="next-btn"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+
+            <div class="deal-list-item">
+                <a href="" class="deals-item">
+                    <div>
+                        <div class="deals-discount">-57%</div>
+                        <img src="./assets/img/Deal Shock/item1.jpg" alt="">
+                    </div>
+                    <div class="deals-price">3.900.000 ₫</div>
+                    <div class="deals-process">
+                        <div class="deals-process-status" style="width: 45%;"></div>
+                        <span>Đã bán 120</span>
+                    </div>
+                </a>
+                <a href="" class="deals-item col">
+                    <div>
+                        <div class="deals-discount">-46%</div>
+                        <img src="./assets/img/Deal Shock/item2.jpg" alt="">
+                    </div>
+                    <div class="deals-price">1.199.000 ₫</div>
+                    <div class="deals-process">
+                        <div class="deals-process-status" style="width: 25%;"></div>
+                        <span>Đã bán 25</span>
+                    </div>
+                </a>
+                <a href="" class="deals-item">
+                    <div>
+                        <div class="deals-discount">-24%</div>
+                        <img src="./assets/img/Deal Shock/item3.png" alt="">
+                    </div>
+                    <div class="deals-price">3.584.000 ₫</div>
+                    <div class="deals-process">
+                        <div class="deals-process-status"></div>
+                        <span>Vừa mở bán</span>
+                    </div>
+                </a>
+                <a href="" class="deals-item">
+                    <div>
+                        <div class="deals-discount">-43%</div>
+                        <img src="./assets/img/Deal Shock/item4.jpg" alt="">
+                    </div>
+                    <div class="deals-price">319.000 ₫</div>
+                    <div class="deals-process">
+                        <div class="deals-process-status"></div>
+                        <span>Vừa mở bán</span>
+                    </div>
+                </a>
+                <a href="" class="deals-item">
+                    <div>
+                        <div class="deals-discount">16%</div>
+                        <img src="./assets/img/Deal Shock/item5.jpg" alt="">
+                    </div>
+                    <div class="deals-price">319.000 ₫</div>
+                    <div class="deals-process">
+                        <div class="deals-process-status"></div>
+                        <span>Vừa mở bán</span>
+                    </div>
+                </a>
+                <a href="" class="next-btn"><i class="fas fa-chevron-right"></i></a>
+
+                <!-- MOBILE -->
+                <div class="deal-more_mobile">
+                    <a href="#" class="next-deal-more">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                    <span>Xem thêm</span>
+                </div>
+                <!-- END MOBILE -->
+            </div>
+        </div>
+        
+        <!-- MOBILE -->
+        <div class="background-img-mobile">
+            <img src="./assets/img/Slider/slider.png" alt="">
+        </div>
+
+        <div class="background-linear-mobile">
+            <img src="./assets/img/Slider/slider2.png" alt="" class="background-linear">
+        </div>
+
+        
+        <div class="Utilities-mobile">
+            <div class="row-utilities">
+                <a href="#" class="list-utilities" style="justify-content: flex-start;">
+                    <img src="./assets/img/Utilities/1.png" alt="">
+                    <span class="text-utilities">Mã giảm giá</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/2.png" alt="">
+                    <span class="text-utilities">Giảm đến 50%</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/3.png" alt="">
+                    <span class="text-utilities">Dịch vụ & <br> Tiện ích</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/4.png" alt="">
+                    <span class="text-utilities">Đi chợ online</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/5.png" alt="">
+                    <span class="text-utilities">Free Ship</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/6.png" alt="">
+                    <span class="text-utilities">Hoàn tiền 15%</span>
+                </a>
+
+            </div>
+           
+            <div class="row-utilities">
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/7.png" alt="">
+                    <span class="text-utilities">Gói hội viên</span>
+                </a>
+            
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/8.png" alt="">
+                    <span class="text-utilities">Hẹn giao & Lắp đặt</span>
+                </a>
+                
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/9.png" alt="">
+                    <span class="text-utilities">Coupon 50%</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/10.png" alt="">
+                    <span class="text-utilities">Ưu đãi đối tác</span>
+                </a>
+    
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/11.png" alt="">
+                    <span class="text-utilities">Ticketbox</span>
+                </a>
+
+                <a href="#" class="list-utilities">
+                    <img src="./assets/img/Utilities/12.png" alt="">
+                    <span class="text-utilities">Tươi sống</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="Banner-mobile">
+            <div class="header-banner">Hôm Nay Có Gì Hot</div>
+            <div class="first-banner">
+                <img src="./assets/img/Banner/banner1.png" alt="">
+            </div>
+            <div class="second-banner">
+                <img src="./assets/img/Banner/banner2.png" alt="">
+                <img src="./assets/img/Banner/banner3.png" alt="">
+            </div>
+        </div>
+
+        <div class="Category-mobile">
+            <div class="header-category">
+                <div>Danh Mục Nổi Bật</div>  
+                <a href="#" class="more-link">XEM THÊM</a>
+            </div>
+            <div class="list-category">
+                <div class="row-category">
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/1.jpg" alt="">
+                        <span class="name-item">Trang trí nhà cửa</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/2.jpg" alt="">
+                        <span class="name-item">Đồ dùng phòng ngủ</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/3.jpg" alt="">
+                        <span class="name-item">Nội thất</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/4.png" alt="">
+                        <span class="name-item">Sửa chữa nhà cửa</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/5.jpg" alt="">
+                        <span class="name-item">Đồ dùng nhà bếp</span>
+                    </a>
+                </div>
+                
+                <div class="row-category">
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/6.jpg" alt="">
+                        <span class="name-item">Thiết bị gia đình</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/7.png" alt="">
+                        <span class="name-item">Thực phẩm</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/8.jpg" alt="">    
+                        <span class="name-item">Đồ uống - Pha chế</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/9.jpg" alt="">
+                        <span class="name-item">Chăm sóc thú cưng</span>
+                    </a>
+                    <a href="#" class="list-items-category">
+                        <img src="./assets/img/Catogery/10.jpg" alt="">    
+                        <span class="name-item">Chăm sóc nhà cửa</span>
+                    </a>
+                </div> 
+
+            </div>
+        </div>
+
+        <!-- END MOBILE -->
+        
+    
+        <!-- //////////////////////////////////// -->
+
+        <div class="Utilities grid wide">
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/1.png" alt="">
+                <span class="text-utilities">Mã giảm giá</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/2.png" alt="">
+                <span class="text-utilities">Giảm đến 50%</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/3.png" alt="">
+                <span class="text-utilities">Dịch vụ & <br> Tiện ích</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/4.png" alt="">
+                <span class="text-utilities">Đi chợ online</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/5.png" alt="">
+                <span class="text-utilities">Free Ship</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/6.png" alt="">
+                <span class="text-utilities">Hoàn tiền 15%</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/7.png" alt="">
+                <span class="text-utilities">Gói hội viên</span>
+            </a>
+        
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/8.png" alt="">
+                <span class="text-utilities">Hẹn giao & Lắp đặt</span>
+            </a>
+            
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/9.png" alt="">
+                <span class="text-utilities">Coupon 50%</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/10.png" alt="">
+                <span class="text-utilities">Ưu đãi đối tác</span>
+            </a>
+
+            <a href="#" class="list-utilities">
+                <img src="./assets/img/Utilities/11.png" alt="">
+                <span class="text-utilities">Ticketbox</span>
+            </a>
+        </div>
+
+        <!-- ////////////////////////////////////////////// -->
+
+        <div class="Banner grid wide">
+            <div class="row">
+                <a href="" class="img-banner col l-3">
+                    <img src="./assets/img/Banner/1.jpg" alt="">
+                </a>
+                <a href="" class="img-banner col l-3">
+                    <img src="./assets/img/Banner/2.jpg" alt="">
+                </a>
+                <a href="" class="img-banner col l-3">
+                    <img src="./assets/img/Banner/3.jpg" alt="">
+                </a>
+                <a href="" class="img-banner col l-3">
+                    <img src="./assets/img/Banner/4.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- ///////////////////////////////// -->
+
+        <div class="Category grid wide">
+            <div class="header-category">Danh Mục Nổi Bật </div>
+            <div class="row">
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/1.jpg" alt="">
+                    <span class="name-item">Trang trí nhà cửa</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/2.jpg" alt="">
+                    <span class="name-item">Đồ dùng phòng ngủ</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/3.jpg" alt="">
+                    <span class="name-item">Nội thất</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/4.png" alt="">
+                    <span class="name-item">Sửa chữa nhà cửa</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/5.jpg" alt="">
+                    <span class="name-item">Đồ dùng nhà bếp</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/6.jpg" alt="">
+                    <span class="name-item">Thiết bị gia đình</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/7.png" alt="">
+                    <span class="name-item">Thực phẩm</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/8.jpg" alt="">    
+                    <span class="name-item">Đồ uống - Pha chế</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/9.jpg" alt="">
+                    <span class="name-item">Chăm sóc thú cưng</span>
+                </a>
+                <a href="#" class="list-items-category col l-1-2">
+                    <img src="./assets/img/Catogery/10.jpg" alt="">    
+                    <span class="name-item">Chăm sóc nhà cửa</span>
+                </a>
+            </div>
+        </div>
+ 
+        <div class="Popular-search grid wide">
+            <div class="header-popular">
+                <span class="header-left">
+                   <a href=""><i class="fas fa-search-dollar"></i></a> 
+                    Tìm kiếm phổ biến
+                </span>
+                <span class="header-right">
+                    <a href="#"><i class="fas fa-sync-alt" style="color: rgb(13, 92, 182);;"></i></a>
+                    Xem thêm
+                </span>
+            </div>
+
+            <div class="popular-product row">
+                <a href="#" class="popular-item col l-3">
+                    <div class="picture-group row">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item1_1.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item1_2.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item1_3.png" alt="">
+                    </div>
+                   
+                    <div class="content-item" style="background-color: rgb(255, 241, 241);">
+                        <span class="title"><b>Quạt điều hoà</b></span>
+                        <span class="sub-title">1.8k+ sản phẩm</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-item col l-3">
+                    <div class="picture-group row">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item2_1.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item2_2.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item2_3.jpg" alt="">
+                    </div>
+                    
+                    <div class="content-item" style="background-color: rgb(211, 238, 255);">
+                        <span class="title"><b>Áo thun nam</b></span>
+                        <span class="sub-title">4.4k+ sản phẩm</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-item col l-3">
+                    <div class="picture-group row">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item3_1.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item3_2.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item3_3.jpg" alt="">
+                    </div>
+                    
+                    <div class="content-item" style="background-color: rgb(252, 248, 228);">
+                        <span class="title"><b>Máy xay sinh tố</b></span>
+                        <span class="sub-title">1k+ sản phẩm</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-item col l-3">
+                    <div class="picture-group row">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item4_1.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item4_2.jpg" alt="">
+                        <img class="col l-4" src="./assets/img/Popular Seach/Item4_3.jpg" alt="">
+                    </div>
+                   
+                    <div class="content-item" style="background-color: rgb(231, 248, 241);">
+                        <span class="title"><b>Kệ sách</b></span>
+                        <span class="sub-title">1.5k+ sản phẩm</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- ////////////////////////////////////// -->
+        
+        <div class="Banner grid wide">
+            <div class="row">
+                <a href="" class="img-banner col l-4">
+                    <img src="./assets/img/Banner/5.jpg" alt="">
+                </a>
+                <a href="" class="img-banner col l-4">
+                    <img src="./assets/img/Banner/6.jpg" alt="">
+                </a>
+                <a href="" class="img-banner col l-4">
+                    <img src="./assets/img/Banner/7.jpg" alt="">
+                </a>
+                
+            </div>
+        </div>
+
+        <!-- /////////////////////////////////////////// -->
+        <div class="Daily-product wide grid">
+            <div class="header-daily">
+                <div class="header-daily1">
+                    <img src="./assets/img/Daily Product/header1.png" alt="">
+                </div>
+
+                <div class="header-daily2">
+                    <img src="./assets/img/Daily Product/header2.png" alt="">
+                </div>
+            </div>
+
+            <div class="daily-list">
+                <div class="row">
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item1_1.jpeg" alt="">
+                        <div class="info">
+                            <span class="name-item">Big C - Vải Thiều Lục Ngạn 3kg</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(4529)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">75.900 ₫</span>
+                                <span class="discount">-31%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item1_2.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Một Cuốn Sách Buồn… Cười <br> - Vui Vẻ Không Quạu Nha 2</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(561)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">39.500 ₫</span>
+                                <span class="discount">-50%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item1_3.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Tô Bình Yên Vẽ Hạnh Phúc</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(6649)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">39.000 ₫</span>
+                                <span class="discount">-50%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item1_4.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Cân Bằng Cảm Xúc, Cả Lúc <br> Bão Giông</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(2883)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">48.000 ₫</span>
+                                <span class="discount">-50%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-0">
+                        <img src="./assets/img/Daily Product/item1_5.jpeg" alt="">
+                        <div class="info">
+                            <span class="name-item">Big C - Vải Thiều Lục Ngạn 2kg</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1921)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">50.500 ₫</span>
+                                <span class="discount">-31%</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--//////// ROW 2 /////////////-->
+            <div class="daily-list">
+                <div class="row">
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item2_1.png" alt="">
+                        <div class="info">
+                            <span class="name-item">Quạt Điều Hoà, Máy Làm Mát Không <br> Khí Bằng Hơi Nước Siêu Mát</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(6)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">1.299.000 ₫</span>
+                                <span class="discount">-60%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item2_2.png" alt="">
+                        <div class="info">
+                            <span class="name-item">Quạt Điều Hoà Không Khí, <br> Máy Làm Mát Mobell 3116A</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(2)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">2.390.500 ₫</span>
+                                <span class="discount">-48%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item2_3.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Quạt Điều Hoà Làm Mát Bằng Hơi <br> Nước Dung Tích 40L</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(23)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">1.399.000 ₫</span>
+                                <span class="discount">-65%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item2_4.png" alt="">
+                        <div class="info">
+                            <span class="name-item">Quạt Điều Hoà, Máy Làm Mát Hơi <br> Nước Siêu Mát</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(3)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">1.299.000 ₫</span>
+                                <span class="discount">-62%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-0">
+                        <img src="./assets/img/Daily Product/item2_5.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Quạt điều hoà hơi nước 60L <br> điều khiển tử xa HS40B </span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">2.685.500 ₫</span>
+                                <span class="discount">-45%</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- /////////// ROW 3 /////////////// -->
+            <div class="daily-list">
+                <div class="row">
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item3_1.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Giải Thích Ngữ Pháp Tiếng Anh (Tái Bản 2020)</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1554)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">119.900 ₫</span>
+                                <span class="discount">-38%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item3_2.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Mình Chỉ Là Người Bình Thường (Sách Tô Màu)</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(536)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">69.000 ₫</span>
+                                <span class="discount">-50%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item3_3.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Muôn Kiếp Nhân Sinh 2</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(1960)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">174.000 ₫</span>
+                                <span class="discount">-35%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item3_4.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Cây Cam Ngọt Của Tôi</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1610)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">78.000 ₫</span>
+                                <span class="discount">-28%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-0">
+                        <img src="./assets/img/Daily Product/item3_5.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Thay Đổi Cuộc Sống Với Nhân Số Học</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1989)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">155.500 ₫</span>
+                                <span class="discount">-38%</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- /////////// ROW 4 //////////////// -->
+            <div class="daily-list">
+                <div class="row">
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item4_1.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Kiếp Nào Ta Cũng Tìm Thấy Nhau</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1468)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">57.900 ₫</span>
+                                <span class="discount">-33%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item4_2.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Đồng Hồ Đeo Tay Thông MInh Nhỏ Gọn, Đa Năng Xiaomi Mi Band 6</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(1536)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">779.000 ₫</span>
+                                <span class="discount">-22%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item4_3.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Điện Thoại Samsung Galaxy Note 10 (8GB/256GB) - Hàng Chính Hãng</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(51)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">12.090.000 ₫</span>
+                                <span class="discount">-47%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item4_4.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Điện Thoại Samsung Galaxy A21s - Hàng Chính Hãng</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(68)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">2.890.000 ₫</span>
+                                <span class="discount">-38%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-0">
+                        <img src="./assets/img/Daily Product/item4_5.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Nóng Giận Là Bản Năng , Tĩnh Lặng Là Bản Lĩnh</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(3655)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">45.500 ₫</span>
+                                <span class="discount">-50%</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ///////// ROW 5 /////////////// -->
+            <div class="daily-list">
+                <div class="row">
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item5_1.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Điện Thoại Vsmart Live 4 (6GB/64GB) - Hàng Chính Hãng</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(1)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">2.599.900 ₫</span>
+                                <span class="discount">-36%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item5_2.png" alt="">
+                        <div class="info">
+                            <span class="name-item">Điện thoại Xiaomi POCO M3 - HÀNG CHÍNH HÃNG</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(402)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">3.082.000 ₫</span>
+                                <span class="discount">-31%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item5_3.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Rèn Luyện Tư Duy Phản Biện</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                </div>
+                                <span class="reviewer">(690)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">12.090.000 ₫</span>
+                                <span class="discount">-36%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-6">
+                        <img src="./assets/img/Daily Product/item5_4.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Tai Nghe Bluetooth Apple AirPods Pro True Wireless - MWP22 - Hàng Chính Hãng VN/A</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(106)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">2.890.000 ₫</span>
+                                <span class="discount">-41%</span>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="item-daily col l-2-4 c-0">
+                        <img src="./assets/img/Daily Product/item5_5.jpg" alt="">
+                        <div class="info">
+                            <span class="name-item">Vui Vẻ Không Quạu Nha - Tản Văn</span>
+                            <span class="review">
+                                <div class="star-review">
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(253, 216, 54);"></i>
+                                    <i class="fas fa-star" style="color: rgb(199, 199, 199);"></i>
+                                </div>
+                                <span class="reviewer">(4054)</span>
+                            </span>
+                            <span class="price">
+                                <span class="price-discount">35.500 ₫</span>
+                                <span class="discount">-50%</span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="view-more-btn">
+                <a href="#" class="view-more">
+                    Xem thêm
+                </a>
+            </div>
+           
+            <div class="free-space-down-nav">
+                
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- MOBILE -->
+    <div class="down-nav-mobile">
+        <a href="" class="icon-nav">
+            <div class="img-icon">
+                <img src="./assets/img/Down Navigation Mobile/active-home.png" alt="">
+            </div>
+            <span class="text-down-nav">Trang Chủ</span>    
+        </a>
+        <a href="" class="icon-nav">
+            <div class="img-icon">
+                <img src="./assets/img/Down Navigation Mobile/cate.png" alt="">
+            </div>
+            <span class="text-down-nav">Danh Mục</span>
+        </a>
+        <a href="" class="icon-nav">
+            <div class="img-icon">
+                <img src="./assets/img/Down Navigation Mobile/fire.png" alt="">
+            </div>
+            <span class="text-down-nav">Lướt</span>
+        </a>
+        <a href="" class="icon-nav">
+            <div class="img-icon">
+                <img src="./assets/img/Down Navigation Mobile/noti.png" alt="">
+            </div>
+            <span class="text-down-nav">Thông Báo</span>
+        </a>
+        <a href="" class="icon-nav">
+            <div class="img-icon">
+                <img src="./assets/img/Down Navigation Mobile/account.png" alt="">
+            </div>
+            <span class="text-down-nav">Cá Nhân</span>
+        </a>
+    </div>
+
+    <!-- END MOBILE -->
+
+    <!-- FOOTER -->
+    <footer id="footer" class="grid">
+
+        <div class="newletter-footer wide grid">
+            <div class="newletter-icon">
+                <img src="./assets/img/newsletter.png" alt="">
+            </div>
+
+            <div class="newletter-description">
+                <h3>Đăng ký nhận bản tin Tiki</h3>
+                <h5>Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn</h5>
+
+            </div>
+
+            <div class="newletter-form">
+                <input type="email" placeholder="Địa chỉ email của bạn" class="newletter-input">
+                <button>Đăng ký</button>
+            </div>
+        </div>
+
+        <div style="width: 100%; background-color: #fff; ">
+            <div class="information-footer wide grid">
+                <div class="row">
+                    <div class="col l-2-4 information-text">
+                        <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+                        <p class="hotline">
+                            Hotline chăm sóc khách hàng: 
+                            <a href="#">1900-6035</a>
+                            <span class="small-text">(1000đ/phút , 8-21h kể cả T7, CN)</span>
+                        </p>
+                        <a href="#" class="small-text">Các câu hỏi thường gặp</a>
+                        <a href="#" class="small-text">Gửi yêu cầu hỗ trợ</a>
+                        <a href="#" class="small-text">Hướng dẫn đặt hàng</a>
+                        <a href="#" class="small-text">Phương thức vận chuyển</a>
+                        <a href="#" class="small-text">Chính sách đổi trả</a>
+                        <a href="#" class="small-text">Hướng dẫn trả góp</a>
+                        <a href="#" class="small-text">Chính sách hàng nhập khẩu</a>
+                        <a href="#" class="small-text">Hỗ trợ khách hàng: hotro@tiki.vn</a>
+                        <a href="#" class="small-text">Báo lỗi bảo mật: security@tiki.vn</a>
+                    </div>
+                    <div class="col l-2-4 information-text">
+                        <h4>VỀ TIKI</h4>
+                        <a href="#" class="small-text">Giới thiệu Tiki</a>
+                        <a href="#" class="small-text">Tuyển Dụng</a>
+                        <a href="#" class="small-text">Chính sách bảo mật thanh toán</a>
+                        <a href="#" class="small-text">Chính sách bảo mật thông tin cá nhân</a>
+                        <a href="#" class="small-text">Chính sách giải quyết khiếu nại</a>
+                        <a href="#" class="small-text">Điều khoản sử dụng</a>
+                        <a href="#" class="small-text">Giới thiệu Tiki Xu</a>
+                        <a href="#" class="small-text">Bán hàng doanh nghiệp</a>
+                    </div>
+                    <div class="col l-2-4 information-text">
+                        <h4>HỢP TÁC VÀ LIÊN KẾT</h4>
+                        <a href="#" class="small-text">Quy chế hoạt động Sàn GDTMĐT</a>
+                        <a href="#" class="small-text">Bán hàng cùng Tiki</a>
+                    </div>
+                    <div class="col l-2-4 information-text">
+                        <h4>PHƯƠNG THỨC THANH TOÁN</h4>
+                        <div class="row payment">
+                            <a href="" class="col-l-3">
+                                <img src="./assets/img/footer/visa.png" alt="">
+                            </a>
+                            <a href="" class="col-l-3">
+                                <img src="./assets/img/footer/mastercard.png" alt="">
+                            </a>
+                            <a href="" class="col-l-3">
+                                <img src="./assets/img/footer/jcb.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="row payment">
+                            <a href="" class="col-l-3">
+                                <img src="./assets/img/footer/cash.png" alt="">
+                            </a>
+                            <a href="" class="col-l-3">
+                                <img src="./assets/img/footer/internet-banking.png" alt="">
+                            </a>
+                            <a href="" class="col-l-3">
+                                <img src="./assets/img/footer/installment.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-2-4 information-text">
+                        <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                        <div class="contact-inf">
+                            <a href="#" class="">
+                                <img src="./assets/img/footer/fb.png" alt="">
+                            </a>
+                            <a href="#" class="">
+                                <img src="./assets/img/footer/youtube.png" alt="">
+                            </a>
+                            <a href="#" class="">
+                                <img src="./assets/img/footer/zalo-seeklogo.png" alt="">
+                            </a>
+                        </div>
+                        <h4 style="margin-top: 36px; margin-bottom: 16px;">TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</h4>
+                        <div class="app-store">
+                            <a href="#"><img src="./assets/img/footer/appstore.png" alt=""></a>
+                            <a href="#"><img src="./assets/img/footer/playstore.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="address-footer wide grid">
+               
+                <div class="small-text address-title">
+                    <p>
+                        <b>Địa chỉ văn phòng:</b>
+                        52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh
+                    </p>
+                </div>
+                <div class="address-text small-text">
+                    <p>Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng <br> hoặc trung tâm xử lý đơn hàng</p>
+                </div>
+               
+               
+            </div>
+    
+            <div class="copyright-footer wide grid">
+                <div class="text-copyright">
+                    <h5 class="text-copyright_1">© 2016 - Bản quyền của Công Ty Cổ Phần Ti Ki - Tiki.vn</h5>
+                    <p class="text-copyright_2">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010</p>
+                </div>
+
+                <div class="img-copyright">
+                    <a href="#"class="img1"><img src="./assets/img/footer/bo-cong-thuong-2.png" alt=""></a>
+                    <a href="#"class="img2"><img src="./assets/img/footer/bo-cong-thuong.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+       
+
+    </footer>
+
+
+</div>
+
+
+
+    
+</body>
+</html>
