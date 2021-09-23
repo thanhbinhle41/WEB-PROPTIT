@@ -1,0 +1,44 @@
+.box-addNewTodo {
+    width: 300px;
+    height: 275px;
+    margin-top: 16px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    background-color: #ffffff;
+  }
+  
+.box-addNewTodo h3 {
+text-align: center;
+}
+
+.box-addNewTodo input,select,label {
+margin-left: 16px;
+}
+
+.box-addNewTodo input {
+width: 250px;
+height: 25px;
+margin-top: 12px;
+margin-bottom: 12px;
+font-size: 16px;
+font-weight: 600;
+
+}
+
+.box-addNewTodo select {
+  width: 258px;
+  height: 30px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.box-addNewTodo select:hover, input:hover {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.btn-addTodo {
+display: flex;
+flex-direction: row;
+
+}
