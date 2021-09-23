@@ -1,0 +1,20 @@
+.App {
+  background-color: rgb(197,216,228);
+  height: 1000px;
+}
+
+.container {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 48px;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px;
+  padding-top: 12px;
+}
